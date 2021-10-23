@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+#header{
+    height: 20%;
+    background-color: rgb(0, 255, 234);
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+#nav{
+    height: 10%;
+    background-color: rgb(226, 241, 14);
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+#contenido{
+    height: 55%;
+    background-color: rgb(99, 89, 89);
+    margin: 1em;
+       
+}
+
+#footer{
+    height: 10%;
+    background-color: rgb(109, 115, 138);
+    margin: 1em;
+    border-radius: 1em; 
+}
+
+#section{
+    height: 97%;
+    width: 70%;
+    background-color: rgb(8, 156, 70);
+    border-radius: 1em;
+    margin-left: 0.5em;
+    float: left; 
+}
+
+#aside{
+    height: 97%;
+    width: 28%;
+    background-color: navy;
+    border-radius: 1em;
+    margin-right: 0.5em;
+    float: right; 
+}
+
+.articulo{
+    width: 96%;
+    height: 20%;
+    background-color: orangered;
+    margin: 1em;
+    border-radius: 1em;
+}
