@@ -8,10 +8,11 @@
     height: 1000px;
     margin: 0.5em auto;
     padding: 0;
+    border-radius: 1em;
 }
 
 #header{
-    height: 20%;
+    height: 25%;
     background-color: rgb(0, 255, 234);
     margin: 1em;
     border-radius: 1em;
@@ -19,8 +20,8 @@
 }
 
 #nav{
-    height: 10%;
-    background-color: rgb(226, 241, 14);
+    height: 18%;
+    /*background-color: rgb(226, 241, 14);*/
     margin: 1em;
     border-radius: 1em;
     
@@ -30,7 +31,7 @@
     height: 55%;
     background-color: rgb(99, 89, 89);
     margin: 1em;
-       
+           
 }
 
 #footer{
@@ -52,7 +53,7 @@
 #aside{
     height: 97%;
     width: 28%;
-    background-color: navy;
+    background-color: rgb(0, 124, 128);
     border-radius: 1em;
     margin-right: 0.5em;
     float: right; 
@@ -65,3 +66,29 @@
     margin: 1em;
     border-radius: 1em;
 }
+
+ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: rgb(39, 135, 180);
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 230px;
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #cec9c9;
+  }
+  #menu>li{
+    float: left;
+    text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
