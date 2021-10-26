@@ -1,0 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#section{
+    height: 97%;
+    width: 70%;
+    background-color: rgb(8, 156, 70);
+    border-radius: 1em;
+    margin-left: 0.5em;
+    float: left; 
+}
