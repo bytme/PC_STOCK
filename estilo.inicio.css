@@ -31,6 +31,7 @@
     height: 60%;
     background-color: rgb(250, 250, 250);
     margin: 1em;
+    border-radius: 1em;
            
 }
 
@@ -60,11 +61,32 @@
 }
 
 .articulo{
-    width: 96%;
-    height: 20%;
-    background-color: rgb(253, 250, 249);
-    margin: 1em;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(228, 129, 129);*/
+  margin: 1em;
+  border-radius: 1em;
+  
+}
+
+.articulo_hijo{
+    width: 100%;
+    height: 50%;
+    /*background-color: rgb(204, 95, 58);
+    margin: 0.5em;*/
     border-radius: 1em;
+    background-image: url(../PC_STOCK/Imagen_inicio.jpg);
+    background-size: 200%;
+    animation: movimiento 20s infinite linear alternate;
+}
+/* creacion de movimiento de la imagen*/
+
+@keyframes movimiento{
+  from{
+    background-position: bottom left;
+  }to{
+    background-position: top right;
+  }
 }
 
 ul{
