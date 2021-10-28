@@ -45,7 +45,7 @@
 #section{
     height: 98%;
     width: 49%;
-    background-color: rgb(84, 84, 226);
+    background-color: rgb(250, 248, 248);
     border-radius: 1em;
     margin-left: 0.5em;
     float: left; 
@@ -54,7 +54,7 @@
 #aside{
     height: 98%;
     width: 49%;
-    background-color: rgb(0, 124, 128);
+    background-color: rgb(250, 248, 248);
     border-radius: 1em;
     margin-right: 0.5em;
     float: right; 
@@ -63,9 +63,10 @@
 .articulo{
     width: 40%;
     height: 30%;
-    background-color: rgb(175, 71, 37);
+    background-color: rgb(250, 248, 248);
     margin: 1em;
     border-radius: 1em;
+    display: inline;
 }
 
 ul{
