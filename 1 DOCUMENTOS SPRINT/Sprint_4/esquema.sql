@@ -39,7 +39,7 @@ constraint tipo_periferico_pk primary key(codigo_tipo_per));
 
 # crear tabla usuario
 create table usuario(
-codigo_usu varchar(15) not null,
+codigo_usu int(15) not null,
 nombre_usu varchar(50) not null,
 usuario varchar(25) not null,
 password varchar(25) not null,
