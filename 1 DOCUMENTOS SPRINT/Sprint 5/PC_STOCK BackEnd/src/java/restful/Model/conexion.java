@@ -11,7 +11,7 @@ public class conexion {
     private static final String DB = "inventario_equipos";
     private static final String URL = "jdbc:mysql://" + HOST + "/" + DB;
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "boileres0329";
+    private static final String PASSWORD = "1234";
     
     public conexion (){
          try {
